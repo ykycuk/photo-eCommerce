@@ -10,7 +10,7 @@ function App() {
         <div>
             <Header />
             <Routes>
-                <Route path="/photo-commerce" element={<Photos />}/>
+                <Route path="/photo-ecommerce/" element={<Photos />}/>
                 <Route path="/cart" element={<Cart />}/>
             </Routes>
         </div>
